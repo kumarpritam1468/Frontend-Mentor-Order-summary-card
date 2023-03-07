@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(img/pattern-background-desktop.svg) no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    height: 700px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+#desc h1{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    font-weight: 900;
+    font-size: 1.9rem;
+}
+
+#desc p{
+    text-align: center;
+    margin: 0px 45px 0px 45px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+#plan{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#plan img{
+    margin: 25px 20px;
+}
+
+#plan #plan1{
+    margin-right: 100px;
+}
+
+#plan #plan1 h1{
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+
+#plan #plan1 p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+#plan a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+#plan a:hover{
+    opacity: .7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons #btn{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 17px 105px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid hsl(245, 75%, 52%);
+    border-radius: 12px;
+    box-shadow: 0px 12px 20px 10px hsla(224, 23%, 55%, 0.374);
+}
+
+#buttons #btn:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+#buttons p{
+    font-size: 16px;
+    margin: 30px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+
+#buttons p:hover{
+    color: black;
+    cursor: pointer;
+}
